@@ -11,12 +11,3 @@ export default function FinalFrame() {
 
     return null
 }
-
-export async function getServerSideProps() {
-    return {
-        redirect: {
-            destination: "https://open.spotify.com/playlist/3EOQCc8HEfIktK1nqAnOHV?si=6cb09ff9d9b144f2",
-            permanent: false,
-        },
-    }
-}
